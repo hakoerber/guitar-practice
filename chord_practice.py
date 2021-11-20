@@ -7,8 +7,17 @@ import random
 import time
 import subprocess
 
-CHORDS = ['A', 'E', 'D']
-RATE = 20
+CHORDS = [
+    'A',
+    'E',
+    'D',
+    'Am',
+    'Dm',
+    'Em',
+    'G',
+    'C',
+]
+RATE = 6
 
 random.shuffle(CHORDS)
 
